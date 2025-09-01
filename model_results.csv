@@ -1,0 +1,4 @@
+model,best_params,cv_rmse,test_rmse,test_r2,test_mae
+XGBoost,"{'regressor__learning_rate': 0.1, 'regressor__max_depth': 6}",74310.55568576964,73061.68423451412,0.8723250576214026,52006.929413725244
+RandomForest,"{'regressor__max_depth': None, 'regressor__n_estimators': 200}",78323.81183919171,76018.25681821012,0.8617827892102545,53177.483465349826
+GradientBoosting,"{'regressor__learning_rate': 0.1, 'regressor__n_estimators': 200}",76913.18449889704,76439.43280797658,0.860246972986953,55596.28648562142
